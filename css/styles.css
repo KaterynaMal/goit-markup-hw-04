@@ -25,14 +25,15 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
 }
 
 /*   Шапка сайту   */
@@ -47,7 +48,7 @@ header .container {
 }
 
 .logo {
-  margin-right: 93px;
+  margin-right: 76px;
 
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
@@ -75,8 +76,8 @@ header .container {
 
 .site-nav.link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .list {
@@ -86,7 +87,7 @@ header .container {
 }
 
 .list .item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 .list.contacts {
@@ -124,10 +125,10 @@ header .container {
   fill: var(--accent-color);
 }
 
-.contacts-icon {
-  margin-right: 10px;
+/*.contacts-icon {
+  margin-right: 40px;
   fill: currentColor;
-}
+}*/
 
 /*  Сброс
 Основний контент  */
@@ -170,16 +171,16 @@ ul {
   letter-spacing: 0.11em;
   
 
-  margin-bottom: 30px;
+  margin-bottom: 48px;
 }
 
 .baner {
   background-color: var(--dark-background-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 188px;
+  padding-bottom: 292px;
 
-  max-width: 1600px;
+  max-width: 1440px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -221,6 +222,7 @@ letter-spacing: 0.064em;
   border: 2px solid var(--accent-color);
   margin-left: auto;
   margin-right: auto;
+ 
   min-width: 169px;
   padding: 16px 32px;
 }
@@ -295,9 +297,9 @@ img {
 
 /*   Чем мы занимаемся   */
 
-.section.directions {
+/*.section.directions {
   padding-top: 0;
-}
+}*/
 
 .list-direction {
   justify-content: space-between;
@@ -311,20 +313,24 @@ img {
 
 .list.advant {
   display: flex;
-  margin-right: -30px;
+  margin-right: -24px;
 }
 
 .advant-items {
-  margin-right: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  margin-right: 24px;
+  flex-basis: calc((100% - 96px) / 4);
+  
 }
 
+
+
 .thumb {
-  width: 270px;
+  width: 264px;
   height: 120px;
   background-color: var(--secondary-background-color);
   margin-bottom: 30px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -345,12 +351,12 @@ img {
   width: 270px;
 }*/
 
-.advant-title {
+/*.advant-title {
   
   
 
   margin-bottom: 10px;
-}
+}*/
 
 .advant-title,
 .list-title,
@@ -365,7 +371,7 @@ img {
 }
 
 .section.advant {
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 
 /*   Наша команда   */
@@ -494,6 +500,10 @@ img {
 }
 
 /*   Секція Портфоліо   */
+
+.section.portfolio {
+padding-top: 100px;
+}
 
 .variaty {
   color: var(--primary-text-color);
