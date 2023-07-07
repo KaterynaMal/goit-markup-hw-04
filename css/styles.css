@@ -4,7 +4,7 @@
   --accent-color: #4D5AE5;
   --primary-white-color: #ffffff;
   --secondary-background-color: #F4F4FD;
-  --dark-background-color: #2f303a;
+  --dark-background-color: #2E2F42;
   --footer-address-text-color: #F4F4FD;
   --btn-primary-accent-color: #404BBF;
 }
@@ -13,11 +13,11 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.032em;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   margin: 0;
 }
@@ -54,8 +54,8 @@ header .container {
   font-weight: 800;
   font-size: 18px;
   font-style: normal;
-  line-height: 21px;
-  letter-spacing: 0,54px;
+  line-height: 1.17;
+  letter-spacing: 0.054em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -165,9 +165,9 @@ ul {
   cursor: pointer;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
-  letter-spacing: 1,12px;
+  letter-spacing: 0.11em;
   
 
   margin-bottom: 30px;
@@ -199,8 +199,10 @@ ul {
   background-color: var(--primary-white-color);
   font-family: inherit;
   text-align: center;
+  font-weight: 500;
   font-size: 16px;
-
+  line-height: 1.5;
+letter-spacing: 0.064em;
   border: transparent;
   border-radius: 4px;
   text-align: center;
@@ -209,18 +211,18 @@ ul {
 .btn.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-weight: 500;
+  
 
-  line-height: 24px;
+  
   display: flex;
   align-items: center;
-  letter-spacing: 0,64px;
+  
 
   border: 2px solid var(--accent-color);
   margin-left: auto;
   margin-right: auto;
-  min-width: 200px;
-  padding: 10px 32px;
+  min-width: 169px;
+  padding: 16px 32px;
 }
 
 .btn.primary:focus,
@@ -232,9 +234,9 @@ ul {
 .btn.secondary {
   color: var(--accent-color);
   background-color: var(--secondary-background-color);
-  font-weight: 500;
-  letter-spacing: 0,64px;
-  line-height: 24px;
+  
+  
+  
 
   min-width: 73px;
   padding: 6px 22px;
@@ -275,8 +277,8 @@ ul {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.072em;
   text-align: center;
   text-transform: capitalize;
 
@@ -357,8 +359,8 @@ img {
   font-weight: 500;
   font-size: 20px;
 
-  line-height: 24px;
-  letter-spacing: 0,4px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
   
 }
 
