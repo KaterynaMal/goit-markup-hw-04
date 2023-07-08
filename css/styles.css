@@ -239,15 +239,13 @@ letter-spacing: 0.064em;
   background-color: var(--secondary-background-color);
   
   
-  
-
-  min-width: 73px;
-  padding: 6px 22px;
+  min-width: 69px;
+  padding: 12px 24px;
   border-color: #eeeeee;
 
   display: flex;
   align-items: center;
-  margin-bottom: 34px;
+  margin-bottom: 72px;
 }
 
 .btn.secondary:hover,
@@ -257,11 +255,15 @@ letter-spacing: 0.064em;
 
 .btn-list {
   justify-content: center;
+  
+  margin-bottom: 0;
 }
 
 .btn-item:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 24px;
 }
+
+
 
 .btn:focus,
 .btn:hover {
@@ -391,13 +393,7 @@ img {
   
 }
 
-.work-list .list-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  text-transform: none;
-}
+
 
 .list {
   display: flex;
@@ -517,14 +513,15 @@ margin-right: 24px;
 padding-top: 100px;
 }
 
+
 .variaty {
   color: var(--primary-text-color);
 }
 
 .work-list .variaty {
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.032em;
 }
 
 /*.works-item:not(:nth-child(3n)) {
@@ -543,30 +540,41 @@ padding-top: 100px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  margin-right: -24px;
+  margin-bottom: -48px;
 }
 
 .works-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  flex-basis: calc((100% - 90px) / 3);
+  margin-right: 24px;
+  margin-bottom: 48px;
+  flex-basis: calc((100% - 72px) / 3);
   box-shadow: none;
 }
 .works-link:hover {
   display: block;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  
+   
 }
 
 .portfolio-item {
-  padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  padding: 32px 16px;
+  border: 1px solid #E7E9FC;
   border-top: none;
 }
 
-.works-list-title,
-.variaty {
-  margin-bottom: 4px;
+.list-title {
+  margin-bottom: 8px;
+}
+
+.work-list .list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: none;
 }
 
 /*   footer   */
