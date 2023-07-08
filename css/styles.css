@@ -6,6 +6,7 @@
   --secondary-background-color: #F4F4FD;
   --dark-background-color: #2E2F42;
   --footer-address-text-color: #F4F4FD;
+  --footer-social-accent-color:#31D0AA;
   --btn-primary-accent-color: #404BBF;
 }
 
@@ -284,7 +285,7 @@ letter-spacing: 0.064em;
   text-align: center;
   text-transform: capitalize;
 
-  margin-bottom: 50px;
+  margin-bottom: 72px;
 }
 
 /*   Зображення, фото   */
@@ -306,7 +307,7 @@ img {
 }
 
 .directions-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 24px;
 }
 
 /*   Особенности студии   */
@@ -381,11 +382,13 @@ img {
 }
 
 .teams {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /*padding-left: 32px;
+  padding-right: 32px;*/
   background-color: #ffffff;
+  
+  
 }
 
 .work-list .list-title {
@@ -414,11 +417,11 @@ img {
   /*color: var(--title-text-color);
   font-weight: 500;*/
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .team-position {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -428,12 +431,12 @@ img {
 
 .list.images {
   display: flex;
-  margin-right: -30px;
+  margin-right: -24px;
 }
 
 .images {
-  margin-right: 30px;
-  flex-basis: calc((100% - 90px) / 4);
+  margin-right: 24px;
+  flex-basis: calc((100% - 96px) / 4);
 }
 
 .images .images {
@@ -448,23 +451,32 @@ img {
 .social-icons-link {
   display: flex;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
+  
   align-items: center;
   justify-content: center;
   background-color: var(--primary-white-color);
-  fill: #afb1b8;
+  fill: var(--secondary-background-color);
+  background-color: var(--accent-color);
+}
+
+.social-icons:not(:last-child) {
+margin-right: 24px;
 }
 
 .social-icons-link:hover,
 .social-icons-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--primary-white-color);
+  
+  background-color: var(--btn-primary-accent-color);
 }
 
 .list.social {
   display: flex;
-  justify-content: space-between;
+  /*width: 232px;*/
+  justify-content:space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .link {
@@ -478,8 +490,8 @@ img {
 }
 
 .clients-link {
-  width: 170px;
-  height: 92px;
+  width: 168px;
+  height: 88px;
   border: 1px solid #afb1b8; /*!!!!!!!!!!!!!!!!!!*/
   border-radius: 4px;
 
@@ -490,13 +502,13 @@ img {
 }
 
 .thumb-clients:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 24px;
 }
 
 .thumb-clients .clients-link:hover,
 .thumb-clients .clients-link:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  fill: var(--btn-primary-accent-color);
+  border: 1px solid var(--btn-primary-accent-color);
 }
 
 /*   Секція Портфоліо   */
@@ -560,8 +572,8 @@ padding-top: 100px;
 /*   footer   */
 
 footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--dark-background-color);
 }
 
@@ -571,19 +583,17 @@ footer .container {
 }
 
 .footer-nav {
-  width: 231px;
-  margin-right: 70px;
+  width: 264px;
+  margin-right: 120px;
+  
 }
+
 footer .logo {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   margin-right: 0;
 }
 
-.footer-list {
-  list-style: none;
-  display: block;
-}
 
 
 
@@ -621,7 +631,7 @@ footer .logo,
 
 .social {
   display: block;
-  width: 206px;
+  width: 208px;
 }
 
 .icons-footer {
@@ -629,11 +639,11 @@ footer .logo,
 }
 
 footer .social-icons-link {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--accent-color);
 }
 
 footer .social-icons:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 
 .social-links.list {
@@ -642,7 +652,7 @@ footer .social-icons:not(:last-child) {
 
 footer .social-icons-link:hover,
 footer .social-icons-link:focus {
-  background-color: var(--accent-color);
+  background-color: var(--footer-social-accent-color);
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -651,7 +661,7 @@ footer .social-icons-link:focus {
   color: var(--primary-white-color);
   font-size: 16px;
   
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 /*fill="#afb1b8" style="fill: var(--color4, #afb1b8)"*/
