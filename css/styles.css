@@ -14,7 +14,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.032em;
+  letter-spacing: 0.32px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -59,7 +59,7 @@ header .container {
   font-size: 18px;
   font-style: normal;
   line-height: 1.17;
-  letter-spacing: 0.054em;
+  letter-spacing: 0.54px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -86,7 +86,7 @@ header .container {
 .list {
   display: flex;
 
-  list-style: none;
+  list-style-type: none;
 }
 
 .list .item:not(:last-child) {
@@ -171,7 +171,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.11em;
+  letter-spacing: 1.12px;
   
 
   margin-bottom: 48px;
@@ -189,7 +189,7 @@ ul {
   margin-right: auto;
   
   
-  background:
+  background-image:
   url(../images/peopleoffice.jpg);
     
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-letter-spacing: 0.064em;
+letter-spacing: 0.64px;
   border: transparent;
   border-radius: 4px;
   text-align: center;
@@ -287,7 +287,7 @@ letter-spacing: 0.064em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.072em;
+  letter-spacing: 0.72px;
   text-align: center;
   text-transform: capitalize;
 
@@ -373,7 +373,7 @@ img {
   font-size: 20px;
 
   line-height: 1.2;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.4px;
   
 }
 
@@ -525,7 +525,7 @@ padding-top: 100px;
 .work-list .variaty {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.032em;
+  letter-spacing: 0.32px;
 }
 
 /*.works-item:not(:nth-child(3n)) {
@@ -577,7 +577,7 @@ padding-top: 100px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.4px;
   text-transform: none;
 }
 
