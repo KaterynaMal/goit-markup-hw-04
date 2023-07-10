@@ -180,7 +180,7 @@ ul {
 }
 
 .baner {
- background-color: var(--dark-background-color);
+ 
   text-align: center;
   padding-top: 188px;
   padding-bottom: 292px;
@@ -191,9 +191,9 @@ ul {
   margin-right: auto;
   
   
-  background-image:
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
   url(../images/peopleoffice.jpg);
-    
+  background-color: var(--dark-background-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -281,12 +281,12 @@ ul {
 
 /*   Особенности студии   */
 
-.list.advant {
+.list.benefits {
   display: flex;
   gap: 24px;
 }
 
-.advant-items {
+.benefits-items {
   
   flex-basis: calc((100% - 72px) / 4);
   
@@ -305,7 +305,7 @@ ul {
   justify-content: center;
 }
 
-.icons-advant {
+.icons-benefits {
   background-position: 50% 50%;
   padding: 0;
 }
@@ -328,7 +328,7 @@ ul {
   margin-bottom: 10px;
 }*/
 
-.advant-title,
+.benefits-title,
 .list-title,
 .team-title {
   color: var(--title-text-color);
@@ -340,7 +340,7 @@ ul {
   
 }
 
-.section.advant {
+.section.benefits {
   padding-bottom: 0;
 }
 
