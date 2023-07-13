@@ -69,9 +69,8 @@ header .container {
 .site-nav {
   color: var(--title-text-color);
   font-weight: 500;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  
 }
 
 .site-nav:hover,
@@ -102,34 +101,35 @@ header .container {
 
 .header-item {
   color: var(--primary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
-.item .current-studio {
+.site-nav.current{
   color: var(--curent-accent-color);
-  position: relative;
+position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current-studio::after {     
+.site-nav.current::after {     
   content: "";
   background-color: var(--curent-accent-color);
-  width: 48px;
+  
   position: absolute;
   height: 4px;
   bottom: -1px;
   left: 0;
   border-radius: 2px;
+  width: 48px;
 }
 
-.site-nav.link,
+
+/*.site-nav.link,
 .header-item.link {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
 .header-item.link:hover,
 .header-item.link:focus {
@@ -414,12 +414,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*  --------------------------------- Portfolio page ------------------ */
 
-.item .current-portfolio {
-  color: var(--curent-accent-color);
-    position: relative;
-}
-
-.current-portfolio.link::after {
+.site-nav.current-portfolio::after {
   width: 66px;
   content: "";
   background-color: var(--curent-accent-color);
@@ -497,7 +492,7 @@ padding-top: 100px;
   height: 100%;
   
   transform: translateY(100%);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .variaty {
@@ -524,14 +519,10 @@ padding-top: 100px;
 
 .works-link {
   display: block;
-
-  transition-property: border, box-shadow;
-    transition-duration: 250ms, 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-link:hover {
-  border: 1px solid var(--main-border-color);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
@@ -675,7 +666,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-  
+  border: none;
   background-color: var(--curent-accent-color);
 }
 
