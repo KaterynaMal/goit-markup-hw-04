@@ -127,6 +127,10 @@ display: flex;
 
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .contacts-list {
   margin-left: auto;
 }
@@ -425,7 +429,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*  --------------------------------- Portfolio page ------------------ */
 
-.site-nav.current-portfolio::after {
+/*.site-nav.current-portfolio::after {
   width: 66px;
   content: "";
   background-color: var(--curent-accent-color);
@@ -434,7 +438,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 4px;
   bottom: -1px;
   left: 0;
-}
+}*/
 
 .section.portfolio {
 padding-top: 100px;
