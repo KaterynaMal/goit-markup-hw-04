@@ -115,7 +115,7 @@ display: flex;
 }
 
 .current::after {
-  content: "";
+  content: '';
   background-color: var(--curent-accent-color);
 
   position: absolute;
