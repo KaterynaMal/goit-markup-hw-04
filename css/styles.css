@@ -495,11 +495,15 @@ padding-top: 100px;
 }
 
 
-.works-item:hover .works-item-overlay {
+/*.works-item:hover .works-item-overlay {
+  transform: translateY(0%);
+}*/
+
+.works-link:hover .works-item-overlay {
   transform: translateY(0%);
 }
 
-.works-item:focus .works-item-overlay {
+.works-link:focus .works-item-overlay {
   transform: translateY(0%);
 }
 
